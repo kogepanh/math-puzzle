@@ -5,9 +5,12 @@ def cutbar(n, m):
     count = 0   # 切った回数
 
     # [n]cmの棒を[num]本になるまで分割する
-    while *** :
+    while num < n:
         # 棒の本数が人数より多ければ，棒の数が人数分増える．棒の数の方が多ければ，棒の数が倍増する．
-        # *************
+        if num <= m:
+            num += num
+        else :
+            num += m
         count += 1
 
     return count
