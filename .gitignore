@@ -1,2 +1,9 @@
 # Answer Folder
 Ans/
+
+# .out ファイルは除外
+*.out
+
+# etc
+.vscode
+.DS_Store
