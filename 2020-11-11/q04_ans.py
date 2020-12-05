@@ -1,5 +1,4 @@
 # Q04 Answer
-
 def cutbar(n, m):
     num = 1     # 棒の数
     count = 0   # 切った回数
@@ -11,6 +10,7 @@ def cutbar(n, m):
         count += 1
 
     return count
+
 
 while True:
     n = int(input("n = "))
